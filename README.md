@@ -84,7 +84,9 @@ git ls-remote --heads origin
 另外克隆一份仓库，在第二份仓库里新增 `REMOTE_CHANGE.txt`，提交并推送：
 
 ~~~bash
-git clone https://github.com/imsanjin-dev/software-engineering-git-lab.git
+git clone https://github.com/imsanjin-dev/software-engineering-git-lab.git software-engineering-git-lab-copy
+cd software-engineering-git-lab-copy
+# 新增 REMOTE_CHANGE.txt 后
 git add REMOTE_CHANGE.txt
 git commit -m "Add update from second clone"
 git push origin main
