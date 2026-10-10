@@ -1,1 +1,2 @@
-This file was committed from a second clone and pushed to GitHub.
+第二份克隆仓库新增的测试文件。
+用于验证修改推送到 GitHub 后，原仓库能通过 git pull 同步更新。
